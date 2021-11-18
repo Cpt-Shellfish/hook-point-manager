@@ -29,7 +29,7 @@ class ShopInfo
             return $path;
         }
 
-        throw new RuntimeException('Can not find and resolve ShopRoot');
+        throw new \RuntimeException('Can not find and resolve ShopRoot');
     }
 
     /**
